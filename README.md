@@ -28,8 +28,14 @@ Backend Developer | Java & Spring Boot | REST APIs | SQL
 
 ## Stats
 <div align="center">
-  <img width="900" src="./profile-cards/profile-details.svg" />
+  <img width="900" src="https://raw.githubusercontent.com/Pcthelab/Pcthelab/output/profile-cards/profile-details.svg" />
 </div>
+
+<div align="center">
+  <img width="445" src="https://raw.githubusercontent.com/Pcthelab/Pcthelab/output/profile-cards/stats.svg" />
+  <img width="445" src="https://raw.githubusercontent.com/Pcthelab/Pcthelab/output/profile-cards/repos-per-language.svg" />
+</div>
+
 
 <div align="center">
   <img width="445" src="./profile-cards/stats.svg" />
