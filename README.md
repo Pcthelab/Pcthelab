@@ -8,7 +8,7 @@
 <!-- NAME -->
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Orbitron&size=54&pause=100000&color=E9D5FF&center=true&vCenter=true&width=980&lines=JUAN+YGOR&repeat=false"
+    src="https://readme-typing-svg.demolab.com?font=Orbitron&size=54&pause=100000&color=E9D5FF&center=true&vCenter=true&width=980&lines=JUAN+DELGADO&repeat=false"
     alt="JUAN DELGADO"
   />
 </p>
