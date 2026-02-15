@@ -3,7 +3,7 @@
 ========================== -->
 
 <!-- HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=155&color=0:05010a,35:1b0b3a,70:6d28d9,100:db2777&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:05010a,35:1b0b3a,70:6d28d9,100:db2777&section=header"/>
 
 <!-- NAME -->
 <p align="center">
@@ -28,12 +28,12 @@
 
 <!-- STATS (SEM LINGUAGENS / 3 CARDS) -->
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pcthelab&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pcthelab&theme=tokyonight" width="80%" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pcthelab&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pcthelab&theme=tokyonight&utcOffset=-3" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pcthelab&theme=tokyonight" width="39%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pcthelab&theme=tokyonight&utcOffset=-3" width="39%" />
 </p>
 
 <!-- GIF -->
