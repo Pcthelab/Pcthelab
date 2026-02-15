@@ -22,22 +22,15 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pcthelab&theme=slateorange&utcOffset=-3" width="38%" />
 </p>
 
-<!-- GIF -->
-<p align="center">
-  <img src="assets/terminal.gif" width="230"/>
-</p>
-
 <!-- STACK -->
 <h3 align="center">Stack</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,maven,git,html,css,js,mysql&theme=dark"/>
 </p>
 
-<!-- LINKEDIN -->
+<!-- GIF -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/pcthelab/" target="_blank">
-    <span style="color:#FB923C; font-size:15px;">linkedin.com/in/pcthelab</span>
-  </a>
+  <img src="assets/terminal.gif" width="230"/>
 </p>
 
 <!-- FOOTER -->
