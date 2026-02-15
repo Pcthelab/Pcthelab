@@ -1,45 +1,50 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,100:5b21b6&section=header"/>
+<!-- HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:000000,100:001100&section=header"/>
 
 <div align="center">
 
 # Juan Delgado
-Backend Developer | Java & Spring Boot | REST APIs | SQL
+<pre>
+Backend Developer • Java • Spring Boot • REST APIs
+ADS — Fatec
+</pre>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/pcthelab" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=8b5cf6" />
+<a href="https://www.linkedin.com/in/pcthelab">
+  <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00ff41" />
 </a>
-<a href="https://github.com/Pcthelab" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=8b5cf6" />
+<a href="https://github.com/Pcthelab">
+  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00ff41" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=Pcthelab&style=for-the-badge&color=8b5cf6" />
+<img src="https://komarev.com/ghpvc/?username=Pcthelab&style=for-the-badge&color=00ff41" />
 
 </div>
 
 ---
 
 ## Stack
+
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,maven,git,html,css,js&theme=dark" />
+
+<img src="https://skillicons.dev/icons?i=java,spring,maven,git,html,css,js&theme=dark" />
+
 </div>
 
 ---
 
 ## Stats
-<div align="center">
-  <img width="900" src="https://raw.githubusercontent.com/Pcthelab/Pcthelab/output/profile-cards/profile-details.svg" />
-</div>
 
-<div align="center">
-  <img width="445" src="https://raw.githubusercontent.com/Pcthelab/Pcthelab/output/profile-cards/stats.svg" />
-  <img width="445" src="https://raw.githubusercontent.com/Pcthelab/Pcthelab/output/profile-cards/repos-per-language.svg" />
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Pcthelab/Pcthelab/main/profile-summary-card-output/zenburn/0-profile-details.svg?v=13" />
+</p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Pcthelab/Pcthelab/main/profile-summary-card-output/zenburn/3-stats.svg?v=13" />
+  <img src="https://raw.githubusercontent.com/Pcthelab/Pcthelab/main/profile-summary-card-output/zenburn/4-productive-time.svg?v=13" />
+</p>
 
-<div align="center">
-  <img width="445" src="./profile-cards/stats.svg" />
-  <img width="445" src="./profile-cards/top-langs.svg" />
-</div>
+---
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,100:5b21b6&section=footer"/>
+<!-- FOOTER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:001100,100:000000&section=footer"/>
