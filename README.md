@@ -1,16 +1,39 @@
-## Hi there 👋
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,100:5b21b6&section=header"/>
 
-<!--
-**Pcthelab/Pcthelab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+# Juan Delgado
+Backend Developer | Java & Spring Boot | REST APIs | SQL
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+<a href="https://www.linkedin.com/in/pcthelab" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=8b5cf6" />
+</a>
+<a href="https://github.com/Pcthelab" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=8b5cf6" />
+</a>
+<img src="https://komarev.com/ghpvc/?username=Pcthelab&style=for-the-badge&color=8b5cf6" />
+
+</div>
+
+---
+
+## Stack
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,maven,git,html,css,js&theme=dark" />
+</div>
+
+---
+
+## Stats
+<div align="center">
+  <img width="900" src="./profile-cards/profile-details.svg" />
+</div>
+
+<div align="center">
+  <img width="445" src="./profile-cards/stats.svg" />
+  <img width="445" src="./profile-cards/top-langs.svg" />
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,100:5b21b6&section=footer"/>
