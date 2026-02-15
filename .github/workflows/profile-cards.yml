@@ -1,4 +1,4 @@
-name: Generate Profile Cards
+name: Generate Profile Summary Cards
 
 on:
   workflow_dispatch:
@@ -13,19 +13,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate summary cards
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: Pcthelab
           THEME: github_dark
+          OUTPUT_DIR: profile-summary-card-output
 
-      - name: Publish cards to output branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: profile-summary-card-output/github_dark
-          publish_branch: output
-          destination_dir: profile-cards
-          force_orphan: true
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output
+          git commit -m "update profile cards" || echo "No changes to commit"
+          git push
