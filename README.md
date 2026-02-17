@@ -3,7 +3,7 @@
 
 <!-- NAME -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=54&pause=100000&color=F3F4F6&center=true&vCenter=true&width=980&lines=JUAN+DELGADO&repeat=false" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=36&pause=100000&color=F3F4F6&center=true&vCenter=true&width=600&lines=JUAN+YGOR+DELGADO&repeat=false" />
 </p>
 
 <!-- SUBTITLE -->
