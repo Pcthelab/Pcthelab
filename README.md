@@ -25,7 +25,7 @@
 <!-- STACK -->
 <h3 align="center">Stack</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,maven,git,html,css,js,mysql&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=java,spring,maven,git,html,css,js,mysql,postgresql&theme=dark"/>
 </p>
 
 <!-- GIF -->
