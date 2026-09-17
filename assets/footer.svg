@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="104" viewBox="0 0 1200 104" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Fim da leitura. O próximo passo é construir. Pcthelab.</title>
+  <path fill="#090e0c" d="M0 0h1200v104H0z"/>
+  <path stroke="#30412e" d="M0 .5h1200"/>
+  <path d="m35 43 8 8-8 8m19 0h14" stroke="#b9fa70" stroke-width="2"/>
+  <text x="91" y="59" fill="#cfdbce" font-family="Consolas, 'Liberation Mono', monospace" font-size="23">próximo passo: <tspan fill="#b9fa70">construir.</tspan></text>
+  <text x="1160" y="59" text-anchor="end" fill="#8c9e8e" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" letter-spacing="2">EOF / PCTHELAB</text>
+</svg>

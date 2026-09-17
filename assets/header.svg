@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Juan Delgado — Source Side</title>
+  <desc id="desc">Desenvolvedor backend. O que aparece na tela começa muito antes dela. Um caminho visual conecta requisição, API, regra de negócio e dados.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" fill="#28392d"/></pattern>
+    <linearGradient id="fade" x1="650" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#090e0c"/><stop offset="1" stop-color="#101b12"/></linearGradient>
+  </defs>
+  <path fill="#090e0c" d="M0 0h1200v560H0z"/>
+  <path fill="url(#fade)" d="M730 60h470v420H730z"/>
+  <path fill="url(#grid)" d="M730 60h470v420H730z"/>
+  <path stroke="#29362e" d="M0 59.5h1200M0 479.5h1200"/>
+  <path fill="#b9fa70" d="M0 0h72v4H0z"/>
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="1.5">
+    <path d="m39 24 6 6-6 6m13 0h11" stroke="#b9fa70" stroke-width="2"/>
+    <text x="79" y="36" fill="#eef3eb">PCTHELAB</text>
+    <text x="214" y="36" fill="#7b8e7f">/ SOURCE SIDE</text>
+    <text x="1160" y="36" fill="#9caea0" text-anchor="end">MOGI GUAÇU / SP</text>
+  </g>
+  <text x="42" y="122" fill="#b9fa70" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" letter-spacing="2">DESENVOLVIMENTO / BACKEND</text>
+  <g fill="#eef3eb" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="700" letter-spacing="-7">
+    <text x="35" y="257">JUAN</text>
+    <text x="35" y="378">DELGADO<tspan fill="#b9fa70" font-family="Consolas, monospace" font-size="104">_</tspan></text>
+  </g>
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="18">
+    <text x="43" y="435" fill="#9caea0">Java / Spring Boot</text>
+    <text x="298" y="435" fill="#4a6251">+</text>
+    <text x="338" y="435" fill="#9caea0">C# / .NET</text>
+  </g>
+  <g font-family="Consolas, 'Liberation Mono', monospace">
+    <text x="822" y="119" fill="#7b8e7f" font-size="13" letter-spacing="1.5">FOLLOW THE REQUEST</text>
+    <path d="M796 164h30m0 0v78h30m-30 0v82h30m-30 0v82h30" stroke="#3f5944" stroke-width="1.5"/>
+    <path d="M796 164h30v160h30" stroke="#b9fa70" stroke-width="1.5"/>
+    <circle cx="791" cy="164" r="4" fill="#b9fa70"/>
+    <text x="852" y="169" fill="#b6c6b9" font-size="16">request</text>
+    <rect x="856" y="214" width="283" height="56" fill="#0c130f" stroke="#314737"/>
+    <text x="875" y="249" fill="#b6c6b9" font-size="16">01</text>
+    <text x="929" y="249" fill="#eef3eb" font-size="18">API</text>
+    <path d="m1108 237 5 5-5 5" stroke="#718b76" stroke-width="1.5"/>
+    <rect x="856" y="296" width="283" height="56" fill="#b9fa70"/>
+    <text x="875" y="331" fill="#263c20" font-size="16">02</text>
+    <text x="929" y="331" fill="#10200d" font-size="18" font-weight="700">regra de negócio</text>
+    <rect x="856" y="378" width="283" height="56" fill="#0c130f" stroke="#314737"/>
+    <text x="875" y="413" fill="#b6c6b9" font-size="16">03</text>
+    <text x="929" y="413" fill="#eef3eb" font-size="18">dados</text>
+    <path d="m1108 401 5 5-5 5" stroke="#718b76" stroke-width="1.5"/>
+  </g>
+  <text x="42" y="527" fill="#cfdbce" font-family="Consolas, 'Liberation Mono', monospace" font-size="19">O que aparece na tela começa muito antes dela.</text>
+  <g stroke="#b9fa70" stroke-width="1.5"><path d="M1083 510v20m7-20v20m6-20v20m11-20v20m4-20v20m9-20v20m5-20v20m12-20v20m5-20v20m9-20v20m4-20v20"/></g>
+</svg>
