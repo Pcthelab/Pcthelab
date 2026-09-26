@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="208" viewBox="0 0 420 208" role="img" aria-labelledby="title desc">
 <title id="title">Atividade pública de Pcthelab</title>
-<desc id="desc">40 contribuições em 14 dias ativos entre 2026-07-04 e 2026-09-25. Cada barra representa sete dias. Inclui commits e outras contribuições contabilizadas pelo GitHub.</desc>
+<desc id="desc">37 contribuições em 13 dias ativos entre 2026-07-05 e 2026-09-26. Cada barra representa sete dias. Inclui commits e outras contribuições contabilizadas pelo GitHub.</desc>
 <rect width="420" height="208" rx="8" fill="#0d1117"/>
 <g font-family="'Courier New',monospace">
 <text x="24" y="30" font-size="11" fill="#8b949e"><tspan fill="#b0ed8c">&gt;</tspan> activity.log</text>
-<text x="24" y="72" font-size="30" fill="#e6edf3">40</text>
+<text x="24" y="72" font-size="30" fill="#e6edf3">37</text>
 <text x="130" y="60" font-size="12" fill="#8b949e">contribuições</text>
-<text x="130" y="80" font-size="11" fill="#6e7681">14 dias ativos / 12 semanas</text>
-<rect x="24" y="140.3125" width="20" height="26.6875" rx="2" fill="#648f56"><title>04/07–10/07: 7 contribuições</title></rect>
-<rect x="55" y="165" width="20" height="2" rx="2" fill="#212a33"><title>11/07–17/07: 0 contribuições</title></rect>
-<rect x="86" y="165" width="20" height="2" rx="2" fill="#212a33"><title>18/07–24/07: 0 contribuições</title></rect>
-<rect x="117" y="165" width="20" height="2" rx="2" fill="#212a33"><title>25/07–31/07: 0 contribuições</title></rect>
-<rect x="148" y="165" width="20" height="2" rx="2" fill="#212a33"><title>01/08–07/08: 0 contribuições</title></rect>
-<rect x="179" y="165" width="20" height="2" rx="2" fill="#212a33"><title>08/08–14/08: 0 contribuições</title></rect>
-<rect x="210" y="165" width="20" height="2" rx="2" fill="#212a33"><title>15/08–21/08: 0 contribuições</title></rect>
-<rect x="241" y="159.375" width="20" height="7.625" rx="2" fill="#648f56"><title>22/08–28/08: 2 contribuições</title></rect>
-<rect x="272" y="163" width="20" height="4" rx="2" fill="#648f56"><title>29/08–04/09: 1 contribuições</title></rect>
-<rect x="303" y="106" width="20" height="61" rx="2" fill="#648f56"><title>05/09–11/09: 16 contribuições</title></rect>
-<rect x="334" y="113.625" width="20" height="53.375" rx="2" fill="#648f56"><title>12/09–18/09: 14 contribuições</title></rect>
-<rect x="365" y="165" width="20" height="2" rx="2" fill="#212a33"><title>19/09–25/09: 0 contribuições</title></rect>
-<text x="24" y="190" font-size="10" fill="#6e7681">04/07</text>
-<text x="385" y="190" text-anchor="end" font-size="10" fill="#6e7681">25/09</text>
+<text x="130" y="80" font-size="11" fill="#6e7681">13 dias ativos / 12 semanas</text>
+<rect x="24" y="151.75" width="20" height="15.25" rx="2" fill="#648f56"><title>05/07–11/07: 4 contribuições</title></rect>
+<rect x="55" y="165" width="20" height="2" rx="2" fill="#212a33"><title>12/07–18/07: 0 contribuições</title></rect>
+<rect x="86" y="165" width="20" height="2" rx="2" fill="#212a33"><title>19/07–25/07: 0 contribuições</title></rect>
+<rect x="117" y="165" width="20" height="2" rx="2" fill="#212a33"><title>26/07–01/08: 0 contribuições</title></rect>
+<rect x="148" y="165" width="20" height="2" rx="2" fill="#212a33"><title>02/08–08/08: 0 contribuições</title></rect>
+<rect x="179" y="165" width="20" height="2" rx="2" fill="#212a33"><title>09/08–15/08: 0 contribuições</title></rect>
+<rect x="210" y="165" width="20" height="2" rx="2" fill="#212a33"><title>16/08–22/08: 0 contribuições</title></rect>
+<rect x="241" y="159.375" width="20" height="7.625" rx="2" fill="#648f56"><title>23/08–29/08: 2 contribuições</title></rect>
+<rect x="272" y="163" width="20" height="4" rx="2" fill="#648f56"><title>30/08–05/09: 1 contribuições</title></rect>
+<rect x="303" y="106" width="20" height="61" rx="2" fill="#648f56"><title>06/09–12/09: 16 contribuições</title></rect>
+<rect x="334" y="113.625" width="20" height="53.375" rx="2" fill="#648f56"><title>13/09–19/09: 14 contribuições</title></rect>
+<rect x="365" y="165" width="20" height="2" rx="2" fill="#212a33"><title>20/09–26/09: 0 contribuições</title></rect>
+<text x="24" y="190" font-size="10" fill="#6e7681">05/07</text>
+<text x="385" y="190" text-anchor="end" font-size="10" fill="#6e7681">26/09</text>
 </g></svg>
