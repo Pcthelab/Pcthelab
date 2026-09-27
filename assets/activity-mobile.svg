@@ -2,7 +2,7 @@
 <title id="title">Atividade pública de Pcthelab</title>
 <desc id="desc">35 contribuições em 13 dias ativos entre 2026-07-06 e 2026-09-27. Cada barra representa um dia. Inclui commits e outras contribuições contabilizadas pelo GitHub.</desc>
 <defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#695091"/><stop offset="1" stop-color="#67e8f9"/></linearGradient></defs>
-<style>@keyframes sweep{0%,10%{transform:translateX(0);opacity:0}20%,80%{opacity:.6}90%,100%{transform:translateX(427.45000000000005px);opacity:0}}.sweep{animation:sweep 9s linear infinite}@media(prefers-reduced-motion:reduce){.sweep{animation:none;opacity:0}}</style>
+<style>@keyframes sweep{0%,10%{transform:translateX(0);opacity:0}20%,80%{opacity:.6}90%,100%{transform:translateX(427.45000000000005px);opacity:0}}.sweep{animation:sweep 9s linear infinite}@media(prefers-reduced-motion:reduce){.sweep{animation-duration:18s}}</style>
 <rect x=".5" y=".5" width="479" height="217" rx="10" fill="#070a10" stroke="#242239"/>
 <g font-family="'Courier New',monospace">
 <text x="24" y="29" font-size="11" fill="#a78bfa" letter-spacing="1">&gt; git activity --public</text>

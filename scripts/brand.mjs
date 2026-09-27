@@ -13,7 +13,7 @@ const css = `
 .pulse{animation:breathe 4s ease-in-out infinite}.glitch{animation:glitch 7s linear infinite}
 .typing{animation:type 9s steps(31,end) infinite}.cursor{animation:cursor 1.1s step-end infinite}
 .packet{stroke-dasharray:45 555;animation:packet 5s linear infinite}
-@media(prefers-reduced-motion:reduce){*{animation:none!important}.glitch{opacity:0}.typing{width:410px}}
+@media(prefers-reduced-motion:reduce){.glitch,.cursor,.pulse{animation:none!important}.glitch{opacity:0}.orbit{animation-duration:36s}.reverse{animation-duration:24s}.typing{animation-duration:15s}.packet{animation-duration:12s}}
 `;
 function orb(cx,cy,r) {
  return `<g transform="translate(${cx} ${cy})">
