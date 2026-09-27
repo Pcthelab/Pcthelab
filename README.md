@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
-  <img src="assets/hero.svg" width="100%" alt="PCTHELAB — Juan Delgado. Backend developer · Java / Spring Boot. Terminal com animação orbital e glitch.">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg?v=2">
+  <img src="assets/hero.svg?v=2" width="100%" alt="PCTHELAB — Juan Delgado. Backend developer · Java / Spring Boot. Terminal com animação orbital e glitch.">
 </picture>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 <a href="https://github.com/Pcthelab?tab=overview">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/activity-mobile.svg">
-    <img src="assets/activity.svg" width="100%" alt="Atividade pública no GitHub nas últimas 12 semanas. Atualizada diariamente.">
+    <source media="(max-width: 600px)" srcset="assets/activity-mobile.svg?v=2">
+    <img src="assets/activity.svg?v=2" width="100%" alt="Atividade pública no GitHub nas últimas 12 semanas. Atualizada diariamente.">
   </picture>
 </a>
