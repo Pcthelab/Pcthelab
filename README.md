@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg?v=2">
-  <img src="assets/hero.svg?v=2" width="100%" alt="PCTHELAB — Juan Delgado. Backend developer · Java / Spring Boot. Terminal com animação orbital e glitch.">
+  <source media="(max-width: 600px)" srcset="assets/hero-mobile.gif">
+  <img src="assets/hero.gif" width="100%" alt="PCTHELAB — Juan Delgado. Backend developer · Java / Spring Boot. Terminal com animação orbital e glitch.">
 </picture>
 
 <p align="center">
