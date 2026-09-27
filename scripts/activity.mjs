@@ -31,22 +31,26 @@ const total = weeks.reduce((sum,n)=>sum+n,0);
 const active = recent.filter(d=>d.count>0).length;
 const dateLabel = date => date.slice(8,10)+'/'+date.slice(5,7);
 function render(mobile) {
-  const w=mobile?420:840, h=mobile?208:180, x=mobile?24:40;
-  const chartX=mobile?24:336, chartTop=mobile?106:46, chartHeight=mobile?61:80;
-  const step=mobile?31:38, barWidth=mobile?20:26, base=chartTop+chartHeight;
-  const max=Math.max(1,...weeks);
+  const w=mobile?480:1000, h=mobile?218:186, x=mobile?24:32;
+  const chartX=mobile?24:335, chartTop=mobile?119:51, chartHeight=mobile?60:83;
+  const step=mobile?5.15:7.5, barWidth=mobile?3.1:4.7, base=chartTop+chartHeight;
+  const max=Math.max(1,...recent.map(d=>d.count));
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title desc">
 <title id="title">Atividade pública de Pcthelab</title>
-<desc id="desc">${total} contribuições em ${active} dias ativos entre ${recent[0].date} e ${recent.at(-1).date}. Cada barra representa sete dias. Inclui commits e outras contribuições contabilizadas pelo GitHub.</desc>
-<rect width="${w}" height="${h}" rx="8" fill="#0a0e13"/>
+<desc id="desc">${total} contribuições em ${active} dias ativos entre ${recent[0].date} e ${recent.at(-1).date}. Cada barra representa um dia. Inclui commits e outras contribuições contabilizadas pelo GitHub.</desc>
+<defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#695091"/><stop offset="1" stop-color="#67e8f9"/></linearGradient></defs>
+<style>@keyframes sweep{0%,10%{transform:translateX(0);opacity:0}20%,80%{opacity:.6}90%,100%{transform:translateX(${83*step}px);opacity:0}}.sweep{animation:sweep 9s linear infinite}@media(prefers-reduced-motion:reduce){.sweep{animation:none;opacity:0}}</style>
+<rect x=".5" y=".5" width="${w-1}" height="${h-1}" rx="10" fill="#070a10" stroke="#242239"/>
 <g font-family="'Courier New',monospace">
-<text x="${x}" y="30" font-size="11" fill="#8b949e"><tspan fill="#67e8f9">&gt;</tspan> activity.log</text>
-<text x="${x}" y="${mobile?72:83}" font-size="${mobile?30:36}" fill="#e6edf3">${total}</text>
-<text x="${mobile?130:x}" y="${mobile?60:107}" font-size="12" fill="#8b949e">contribuições</text>
-<text x="${mobile?130:x}" y="${mobile?80:128}" font-size="11" fill="#8494a7">${active} dias ativos / 12 semanas</text>
-${weeks.map((n,i)=> { const bh=n===0?2:Math.max(4,n/max*chartHeight);return `<rect x="${chartX+i*step}" y="${base-bh}" width="${barWidth}" height="${bh}" rx="2" fill="${n===0?'#17242d':i===11?'#67e8f9':'#357b8a'}"><title>${dateLabel(recent[i*7].date)}–${dateLabel(recent[i*7+6].date)}: ${n} contribuições</title></rect>`; }).join('\n')}
-<text x="${chartX}" y="${base+23}" font-size="10" fill="#8494a7">${dateLabel(recent[0].date)}</text>
-<text x="${chartX+11*step+barWidth}" y="${base+23}" text-anchor="end" font-size="10" fill="#8494a7">${dateLabel(recent.at(-1).date)}</text>
+<text x="${x}" y="29" font-size="11" fill="#a78bfa" letter-spacing="1">&gt; git activity --public</text>
+<text x="${x}" y="${mobile?83:89}" font-size="42" fill="#e8e3f5">${total}</text>
+<text x="${mobile?132:x}" y="${mobile?66:113}" font-size="12" fill="#a9aec2">contribuições</text>
+<text x="${mobile?132:x}" y="${mobile?86:135}" font-size="11" fill="#85809c">${active} dias ativos / 12 semanas</text>
+<path d="M${chartX} ${base}H${chartX+83*step+barWidth}" stroke="#282438"/>
+${recent.map((d,i)=> { const bh=d.count===0?2:Math.max(5,d.count/max*chartHeight);return `<rect x="${chartX+i*step}" y="${base-bh}" width="${barWidth}" height="${bh}" rx="1" fill="${d.count===0?'#26263a':'url(#bar)'}"><title>${dateLabel(d.date)}: ${d.count} contribuições</title></rect>`; }).join('\n')}
+<path d="M${chartX} ${chartTop-6}V${base+4}" stroke="#d3c1ff" stroke-width="1" class="sweep"/>
+<text x="${chartX}" y="${base+23}" font-size="10" fill="#85809c">${dateLabel(recent[0].date)}</text>
+<text x="${chartX+83*step+barWidth}" y="${base+23}" text-anchor="end" font-size="10" fill="#85809c">${dateLabel(recent.at(-1).date)}</text>
 </g></svg>\n`;
 }
 const output = new URL('../assets/', import.meta.url);

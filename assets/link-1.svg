@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="58" viewBox="0 0 320 58" role="img" aria-label="PORTFÓLIO">
+<rect x=".5" y=".5" width="319" height="57" rx="8" fill="#0c0e17" stroke="#28263c"/>
+<text x="20" y="34" font-family="'Courier New',monospace" font-size="11" fill="#817395">01</text>
+<text x="55" y="35" font-family="'Courier New',monospace" font-size="14" letter-spacing="2" fill="#d4d9e8">PORTFÓLIO</text>
+<path d="M280 35L291 24M280 24H291V35" stroke="#a78bfa" stroke-width="1.5" fill="none"/></svg>

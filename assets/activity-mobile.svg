@@ -1,24 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="208" viewBox="0 0 420 208" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="218" viewBox="0 0 480 218" role="img" aria-labelledby="title desc">
 <title id="title">Atividade pública de Pcthelab</title>
-<desc id="desc">34 contribuições em 13 dias ativos entre 2026-07-06 e 2026-09-27. Cada barra representa sete dias. Inclui commits e outras contribuições contabilizadas pelo GitHub.</desc>
-<rect width="420" height="208" rx="8" fill="#0a0e13"/>
+<desc id="desc">34 contribuições em 13 dias ativos entre 2026-07-06 e 2026-09-27. Cada barra representa um dia. Inclui commits e outras contribuições contabilizadas pelo GitHub.</desc>
+<defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#695091"/><stop offset="1" stop-color="#67e8f9"/></linearGradient></defs>
+<style>@keyframes sweep{0%,10%{transform:translateX(0);opacity:0}20%,80%{opacity:.6}90%,100%{transform:translateX(427.45000000000005px);opacity:0}}.sweep{animation:sweep 9s linear infinite}@media(prefers-reduced-motion:reduce){.sweep{animation:none;opacity:0}}</style>
+<rect x=".5" y=".5" width="479" height="217" rx="10" fill="#070a10" stroke="#242239"/>
 <g font-family="'Courier New',monospace">
-<text x="24" y="30" font-size="11" fill="#8b949e"><tspan fill="#67e8f9">&gt;</tspan> activity.log</text>
-<text x="24" y="72" font-size="30" fill="#e6edf3">34</text>
-<text x="130" y="60" font-size="12" fill="#8b949e">contribuições</text>
-<text x="130" y="80" font-size="11" fill="#8494a7">13 dias ativos / 12 semanas</text>
-<rect x="24" y="165" width="20" height="2" rx="2" fill="#17242d"><title>06/07–12/07: 0 contribuições</title></rect>
-<rect x="55" y="165" width="20" height="2" rx="2" fill="#17242d"><title>13/07–19/07: 0 contribuições</title></rect>
-<rect x="86" y="165" width="20" height="2" rx="2" fill="#17242d"><title>20/07–26/07: 0 contribuições</title></rect>
-<rect x="117" y="165" width="20" height="2" rx="2" fill="#17242d"><title>27/07–02/08: 0 contribuições</title></rect>
-<rect x="148" y="165" width="20" height="2" rx="2" fill="#17242d"><title>03/08–09/08: 0 contribuições</title></rect>
-<rect x="179" y="165" width="20" height="2" rx="2" fill="#17242d"><title>10/08–16/08: 0 contribuições</title></rect>
-<rect x="210" y="165" width="20" height="2" rx="2" fill="#17242d"><title>17/08–23/08: 0 contribuições</title></rect>
-<rect x="241" y="158.6818181818182" width="20" height="8.318181818181818" rx="2" fill="#357b8a"><title>24/08–30/08: 3 contribuições</title></rect>
-<rect x="272" y="165" width="20" height="2" rx="2" fill="#17242d"><title>31/08–06/09: 0 contribuições</title></rect>
-<rect x="303" y="106" width="20" height="61" rx="2" fill="#357b8a"><title>07/09–13/09: 22 contribuições</title></rect>
-<rect x="334" y="144.8181818181818" width="20" height="22.181818181818183" rx="2" fill="#357b8a"><title>14/09–20/09: 8 contribuições</title></rect>
-<rect x="365" y="163" width="20" height="4" rx="2" fill="#67e8f9"><title>21/09–27/09: 1 contribuições</title></rect>
-<text x="24" y="190" font-size="10" fill="#8494a7">06/07</text>
-<text x="385" y="190" text-anchor="end" font-size="10" fill="#8494a7">27/09</text>
+<text x="24" y="29" font-size="11" fill="#a78bfa" letter-spacing="1">&gt; git activity --public</text>
+<text x="24" y="83" font-size="42" fill="#e8e3f5">34</text>
+<text x="132" y="66" font-size="12" fill="#a9aec2">contribuições</text>
+<text x="132" y="86" font-size="11" fill="#85809c">13 dias ativos / 12 semanas</text>
+<path d="M24 179H454.55000000000007" stroke="#282438"/>
+<rect x="24" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>06/07: 0 contribuições</title></rect>
+<rect x="29.15" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>07/07: 0 contribuições</title></rect>
+<rect x="34.3" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>08/07: 0 contribuições</title></rect>
+<rect x="39.45" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>09/07: 0 contribuições</title></rect>
+<rect x="44.6" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>10/07: 0 contribuições</title></rect>
+<rect x="49.75" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>11/07: 0 contribuições</title></rect>
+<rect x="54.900000000000006" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>12/07: 0 contribuições</title></rect>
+<rect x="60.050000000000004" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>13/07: 0 contribuições</title></rect>
+<rect x="65.2" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>14/07: 0 contribuições</title></rect>
+<rect x="70.35" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>15/07: 0 contribuições</title></rect>
+<rect x="75.5" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>16/07: 0 contribuições</title></rect>
+<rect x="80.65" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>17/07: 0 contribuições</title></rect>
+<rect x="85.80000000000001" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>18/07: 0 contribuições</title></rect>
+<rect x="90.95" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>19/07: 0 contribuições</title></rect>
+<rect x="96.10000000000001" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>20/07: 0 contribuições</title></rect>
+<rect x="101.25" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>21/07: 0 contribuições</title></rect>
+<rect x="106.4" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>22/07: 0 contribuições</title></rect>
+<rect x="111.55000000000001" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>23/07: 0 contribuições</title></rect>
+<rect x="116.7" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>24/07: 0 contribuições</title></rect>
+<rect x="121.85000000000001" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>25/07: 0 contribuições</title></rect>
+<rect x="127" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>26/07: 0 contribuições</title></rect>
+<rect x="132.15" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>27/07: 0 contribuições</title></rect>
+<rect x="137.3" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>28/07: 0 contribuições</title></rect>
+<rect x="142.45" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>29/07: 0 contribuições</title></rect>
+<rect x="147.60000000000002" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>30/07: 0 contribuições</title></rect>
+<rect x="152.75" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>31/07: 0 contribuições</title></rect>
+<rect x="157.9" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>01/08: 0 contribuições</title></rect>
+<rect x="163.05" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>02/08: 0 contribuições</title></rect>
+<rect x="168.20000000000002" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>03/08: 0 contribuições</title></rect>
+<rect x="173.35000000000002" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>04/08: 0 contribuições</title></rect>
+<rect x="178.5" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>05/08: 0 contribuições</title></rect>
+<rect x="183.65" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>06/08: 0 contribuições</title></rect>
+<rect x="188.8" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>07/08: 0 contribuições</title></rect>
+<rect x="193.95000000000002" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>08/08: 0 contribuições</title></rect>
+<rect x="199.10000000000002" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>09/08: 0 contribuições</title></rect>
+<rect x="204.25" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>10/08: 0 contribuições</title></rect>
+<rect x="209.4" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>11/08: 0 contribuições</title></rect>
+<rect x="214.55" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>12/08: 0 contribuições</title></rect>
+<rect x="219.70000000000002" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>13/08: 0 contribuições</title></rect>
+<rect x="224.85000000000002" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>14/08: 0 contribuições</title></rect>
+<rect x="230" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>15/08: 0 contribuições</title></rect>
+<rect x="235.15" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>16/08: 0 contribuições</title></rect>
+<rect x="240.3" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>17/08: 0 contribuições</title></rect>
+<rect x="245.45000000000002" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>18/08: 0 contribuições</title></rect>
+<rect x="250.60000000000002" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>19/08: 0 contribuições</title></rect>
+<rect x="255.75000000000003" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>20/08: 0 contribuições</title></rect>
+<rect x="260.9" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>21/08: 0 contribuições</title></rect>
+<rect x="266.05" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>22/08: 0 contribuições</title></rect>
+<rect x="271.20000000000005" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>23/08: 0 contribuições</title></rect>
+<rect x="276.35" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>24/08: 0 contribuições</title></rect>
+<rect x="281.5" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>25/08: 0 contribuições</title></rect>
+<rect x="286.65000000000003" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>26/08: 0 contribuições</title></rect>
+<rect x="291.8" y="172.33333333333334" width="3.1" height="6.666666666666666" rx="1" fill="url(#bar)"><title>27/08: 1 contribuições</title></rect>
+<rect x="296.95000000000005" y="172.33333333333334" width="3.1" height="6.666666666666666" rx="1" fill="url(#bar)"><title>28/08: 1 contribuições</title></rect>
+<rect x="302.1" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>29/08: 0 contribuições</title></rect>
+<rect x="307.25" y="172.33333333333334" width="3.1" height="6.666666666666666" rx="1" fill="url(#bar)"><title>30/08: 1 contribuições</title></rect>
+<rect x="312.40000000000003" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>31/08: 0 contribuições</title></rect>
+<rect x="317.55" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>01/09: 0 contribuições</title></rect>
+<rect x="322.70000000000005" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>02/09: 0 contribuições</title></rect>
+<rect x="327.85" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>03/09: 0 contribuições</title></rect>
+<rect x="333" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>04/09: 0 contribuições</title></rect>
+<rect x="338.15000000000003" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>05/09: 0 contribuições</title></rect>
+<rect x="343.3" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>06/09: 0 contribuições</title></rect>
+<rect x="348.45000000000005" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>07/09: 0 contribuições</title></rect>
+<rect x="353.6" y="165.66666666666666" width="3.1" height="13.333333333333332" rx="1" fill="url(#bar)"><title>08/09: 2 contribuições</title></rect>
+<rect x="358.75" y="172.33333333333334" width="3.1" height="6.666666666666666" rx="1" fill="url(#bar)"><title>09/09: 1 contribuições</title></rect>
+<rect x="363.90000000000003" y="119" width="3.1" height="60" rx="1" fill="url(#bar)"><title>10/09: 9 contribuições</title></rect>
+<rect x="369.05" y="152.33333333333334" width="3.1" height="26.666666666666664" rx="1" fill="url(#bar)"><title>11/09: 4 contribuições</title></rect>
+<rect x="374.20000000000005" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>12/09: 0 contribuições</title></rect>
+<rect x="379.35" y="139" width="3.1" height="40" rx="1" fill="url(#bar)"><title>13/09: 6 contribuições</title></rect>
+<rect x="384.5" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>14/09: 0 contribuições</title></rect>
+<rect x="389.65000000000003" y="159" width="3.1" height="20" rx="1" fill="url(#bar)"><title>15/09: 3 contribuições</title></rect>
+<rect x="394.8" y="159" width="3.1" height="20" rx="1" fill="url(#bar)"><title>16/09: 3 contribuições</title></rect>
+<rect x="399.95000000000005" y="172.33333333333334" width="3.1" height="6.666666666666666" rx="1" fill="url(#bar)"><title>17/09: 1 contribuições</title></rect>
+<rect x="405.1" y="172.33333333333334" width="3.1" height="6.666666666666666" rx="1" fill="url(#bar)"><title>18/09: 1 contribuições</title></rect>
+<rect x="410.25" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>19/09: 0 contribuições</title></rect>
+<rect x="415.40000000000003" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>20/09: 0 contribuições</title></rect>
+<rect x="420.55" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>21/09: 0 contribuições</title></rect>
+<rect x="425.70000000000005" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>22/09: 0 contribuições</title></rect>
+<rect x="430.85" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>23/09: 0 contribuições</title></rect>
+<rect x="436" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>24/09: 0 contribuições</title></rect>
+<rect x="441.15000000000003" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>25/09: 0 contribuições</title></rect>
+<rect x="446.3" y="177" width="3.1" height="2" rx="1" fill="#26263a"><title>26/09: 0 contribuições</title></rect>
+<rect x="451.45000000000005" y="172.33333333333334" width="3.1" height="6.666666666666666" rx="1" fill="url(#bar)"><title>27/09: 1 contribuições</title></rect>
+<path d="M24 113V183" stroke="#d3c1ff" stroke-width="1" class="sweep"/>
+<text x="24" y="202" font-size="10" fill="#85809c">06/07</text>
+<text x="454.55000000000007" y="202" text-anchor="end" font-size="10" fill="#85809c">27/09</text>
 </g></svg>
