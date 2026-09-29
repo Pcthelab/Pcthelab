@@ -38,19 +38,19 @@ function render(mobile) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-labelledby="title desc">
 <title id="title">Atividade pública de Pcthelab</title>
 <desc id="desc">${total} contribuições em ${active} dias ativos entre ${recent[0].date} e ${recent.at(-1).date}. Cada barra representa um dia. Inclui commits e outras contribuições contabilizadas pelo GitHub.</desc>
-<defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#695091"/><stop offset="1" stop-color="#67e8f9"/></linearGradient></defs>
+<defs><linearGradient id="bar" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#731d2d"/><stop offset="1" stop-color="#ff5067"/></linearGradient></defs>
 <style>@keyframes sweep{0%,10%{transform:translateX(0);opacity:0}20%,80%{opacity:.6}90%,100%{transform:translateX(${83*step}px);opacity:0}}.sweep{animation:sweep 9s linear infinite}@media(prefers-reduced-motion:reduce){.sweep{animation-duration:18s}}</style>
-<rect x=".5" y=".5" width="${w-1}" height="${h-1}" rx="10" fill="#070a10" stroke="#242239"/>
+<rect x=".5" y=".5" width="${w-1}" height="${h-1}" rx="10" fill="#08090b" stroke="#382128"/>
 <g font-family="'Courier New',monospace">
-<text x="${x}" y="29" font-size="11" fill="#a78bfa" letter-spacing="1">&gt; git activity --public</text>
-<text x="${x}" y="${mobile?83:89}" font-size="42" fill="#e8e3f5">${total}</text>
-<text x="${mobile?132:x}" y="${mobile?66:113}" font-size="12" fill="#a9aec2">contribuições</text>
-<text x="${mobile?132:x}" y="${mobile?86:135}" font-size="11" fill="#85809c">${active} dias ativos / 12 semanas</text>
-<path d="M${chartX} ${base}H${chartX+83*step+barWidth}" stroke="#282438"/>
-${recent.map((d,i)=> { const bh=d.count===0?2:Math.max(5,d.count/max*chartHeight);return `<rect x="${chartX+i*step}" y="${base-bh}" width="${barWidth}" height="${bh}" rx="1" fill="${d.count===0?'#26263a':'url(#bar)'}"><title>${dateLabel(d.date)}: ${d.count} contribuições</title></rect>`; }).join('\n')}
-<path d="M${chartX} ${chartTop-6}V${base+4}" stroke="#d3c1ff" stroke-width="1" class="sweep"/>
-<text x="${chartX}" y="${base+23}" font-size="10" fill="#85809c">${dateLabel(recent[0].date)}</text>
-<text x="${chartX+83*step+barWidth}" y="${base+23}" text-anchor="end" font-size="10" fill="#85809c">${dateLabel(recent.at(-1).date)}</text>
+<text x="${x}" y="29" font-size="11" fill="#ff304f" letter-spacing="1">&gt; git activity --public</text>
+<text x="${x}" y="${mobile?83:89}" font-size="42" fill="#eeece7">${total}</text>
+<text x="${mobile?132:x}" y="${mobile?66:113}" font-size="12" fill="#b9acb0">contribuições</text>
+<text x="${mobile?132:x}" y="${mobile?86:135}" font-size="11" fill="#a18288">${active} dias ativos / 12 semanas</text>
+<path d="M${chartX} ${base}H${chartX+83*step+barWidth}" stroke="#382128"/>
+${recent.map((d,i)=> { const bh=d.count===0?2:Math.max(5,d.count/max*chartHeight);return `<rect x="${chartX+i*step}" y="${base-bh}" width="${barWidth}" height="${bh}" rx="1" fill="${d.count===0?'#30222b':'url(#bar)'}"><title>${dateLabel(d.date)}: ${d.count} contribuições</title></rect>`; }).join('\n')}
+<path d="M${chartX} ${chartTop-6}V${base+4}" stroke="#ffd2d9" stroke-width="1" class="sweep"/>
+<text x="${chartX}" y="${base+23}" font-size="10" fill="#a18288">${dateLabel(recent[0].date)}</text>
+<text x="${chartX+83*step+barWidth}" y="${base+23}" text-anchor="end" font-size="10" fill="#a18288">${dateLabel(recent.at(-1).date)}</text>
 </g></svg>\n`;
 }
 const output = new URL('../assets/', import.meta.url);

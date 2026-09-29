@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="354" viewBox="0 0 1000 354" role="img" aria-labelledby="title desc">
+<title id="title">PCTHELAB — Juan Delgado</title><desc id="desc">Identidade de terminal: máscara anônima, scan vermelho e glitch. Java e Spring Boot.</desc>
+<defs><pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#ffffff" stroke-opacity=".025"/></pattern><clipPath id="titleSlice"><rect x="0" y="107" width="1000" height="13"/><rect x="0" y="143" width="1000" height="5"/></clipPath></defs>
+<rect width="1000" height="354" rx="8" fill="#08090b"/><rect x=".5" y=".5" width="999" height="353" rx="8" stroke="#382128" fill="url(#scanlines)"/>
+<path d="M1 46H999" stroke="#382128"/>
+<g font-family="'Courier New',monospace" font-size="11"><text x="40" y="28" fill="#a39b9e">pcthelab@localhost:~</text><text x="960" y="28" text-anchor="end" fill="#ff304f">/bin/bash</text></g>
+<g fill="#bd2940" opacity=".17" font-family="monospace" font-size="9"><text x="711" y="114.9">0</text><text x="711" y="141.9">1</text><text x="711" y="168.9">/</text><text x="711" y="195.9">{</text><text x="711" y="222.9">}</text><text x="711" y="249.9">_</text><text x="711" y="103.35">;</text></g><g fill="#bd2940" opacity=".17" font-family="monospace" font-size="9"><text x="734.14" y="125.9">{</text><text x="734.14" y="152.9">}</text><text x="734.14" y="179.9">_</text><text x="734.14" y="206.9">;</text><text x="734.14" y="233.9">$</text><text x="734.14" y="260.9">0</text><text x="734.14" y="114.35">1</text></g><g fill="#bd2940" opacity=".17" font-family="monospace" font-size="9"><text x="757.28" y="136.9">;</text><text x="757.28" y="163.9">$</text><text x="757.28" y="190.9">0</text><text x="757.28" y="217.9">1</text><text x="757.28" y="244.9">/</text><text x="757.28" y="98.35">{</text><text x="757.28" y="125.35">}</text></g><g fill="#bd2940" opacity=".17" font-family="monospace" font-size="9"><text x="780.42" y="147.9">1</text><text x="780.42" y="174.9">/</text><text x="780.42" y="201.9">{</text><text x="780.42" y="228.9">}</text><text x="780.42" y="255.9">_</text><text x="780.42" y="109.35">;</text><text x="780.42" y="136.35">$</text></g><g fill="#bd2940" opacity=".17" font-family="monospace" font-size="9"><text x="803.56" y="158.9">}</text><text x="803.56" y="185.9">_</text><text x="803.56" y="212.9">;</text><text x="803.56" y="239.9">$</text><text x="803.56" y="266.9">0</text><text x="803.56" y="120.35">1</text><text x="803.56" y="147.35">/</text></g><g fill="#bd2940" opacity=".17" font-family="monospace" font-size="9"><text x="826.7" y="169.9">$</text><text x="826.7" y="196.9">0</text><text x="826.7" y="223.9">1</text><text x="826.7" y="250.9">/</text><text x="826.7" y="104.35">{</text><text x="826.7" y="131.35">}</text><text x="826.7" y="158.35">_</text></g><g fill="#bd2940" opacity=".17" font-family="monospace" font-size="9"><text x="849.84" y="180.9">/</text><text x="849.84" y="207.9">{</text><text x="849.84" y="234.9">}</text><text x="849.84" y="261.9">_</text><text x="849.84" y="115.35">;</text><text x="849.84" y="142.35">$</text><text x="849.84" y="169.35">0</text></g><g fill="#bd2940" opacity=".17" font-family="monospace" font-size="9"><text x="872.98" y="191.9">_</text><text x="872.98" y="218.9">;</text><text x="872.98" y="245.9">$</text><text x="872.98" y="99.35">0</text><text x="872.98" y="126.35">1</text><text x="872.98" y="153.35">/</text><text x="872.98" y="180.34999999999997">{</text></g><g fill="#bd2940" opacity=".17" font-family="monospace" font-size="9"><text x="896.12" y="202.9">0</text><text x="896.12" y="229.9">1</text><text x="896.12" y="256.9">/</text><text x="896.12" y="110.35">{</text><text x="896.12" y="137.35">}</text><text x="896.12" y="164.35">_</text><text x="896.12" y="191.34999999999997">;</text></g>
+<g transform="translate(816 185) scale(0.89)"><defs><clipPath id="reveal"><rect x="-104" y="-113" width="208" height="240"/></clipPath><clipPath id="codeReveal"><rect x="-104" y="127" width="208" height="0"/></clipPath><clipPath id="maskSlice"><rect x="-112" y="-31" width="224" height="15"/><rect x="-112" y="48" width="224" height="8"/></clipPath></defs>
+<path d="M-119 117L-111-17Q-102-102 0-139Q102-102 111-17L119 117L71 90L0 135L-71 90Z" fill="#111115" stroke="#30232a"/>
+<path d="M-111 115L-97 16Q-90-80 0-119Q90-80 97 16L111 115M-81 96L0 126L81 96" fill="none" stroke="#543039" stroke-width="1"/>
+<g clip-path="url(#codeReveal)" fill="#ff304f" font-family="monospace" font-size="9" text-anchor="middle" opacity=".6"><text x="0" y="-84">01:/{}[]01:/{}[]01:/{}[]</text><text x="0" y="-74">/{}[]01:/{}[]01:/{}[]01:</text><text x="0" y="-64">[]01:/{}[]01:/{}[]01:/{}</text><text x="0" y="-54">1:/{}[]01:/{}[]01:/{}[]0</text><text x="0" y="-44">{}[]01:/{}[]01:/{}[]01:/</text><text x="0" y="-34">]01:/{}[]01:/{}[]01:/{}[</text><text x="0" y="-24">:/{}[]01:/{}[]01:/{}[]01</text><text x="0" y="-14">}[]01:/{}[]01:/{}[]01:/{</text><text x="0" y="-4">01:/{}[]01:/{}[]01:/{}[]</text><text x="0" y="6">/{}[]01:/{}[]01:/{}[]01:</text><text x="0" y="16">[]01:/{}[]01:/{}[]01:/{}</text><text x="0" y="26">1:/{}[]01:/{}[]01:/{}</text><text x="0" y="36">{}[]01:/{}[]01:/{}[</text><text x="0" y="46">]01:/{}[]01:/{}[</text><text x="0" y="56">:/{}[]01:/{}[]</text><text x="0" y="66">}[]01:/{}[]</text><text x="0" y="76">01:/{}[]0</text><text x="0" y="86">/{}[]0</text><text x="0" y="96">[]01</text></g>
+<g id="face" clip-path="url(#reveal)">
+<path d="M0-106C-49-108-82-83-84-34C-89 8-72 46-45 80C-29 101-10 115 0 119C10 115 29 101 45 80C72 46 89 8 84-34C82-83 49-108 0-106Z" fill="#eeece7"/>
+<path d="M0-106C-49-108-82-83-84-34C-89 8-72 46-45 80C-29 101-10 115 0 119L-13 85L-40 51L-57 9L-61-50L-42-89Z" fill="#aca7a6" opacity=".30"/>
+<path d="M0-106C49-108 82-83 84-34C89 8 72 46 45 80C29 101 10 115 0 119L13 85L40 51L57 9L61-50L42-89Z" fill="#b0a5a9" opacity=".16"/>
+<path d="M-71-45Q-40-76-13-46Q-37-55-69-37ZM71-45Q40-76 13-46Q37-55 69-37Z" fill="#111115"/>
+<path d="M-65-27Q-45-43-19-24Q-39-15-61-22ZM65-27Q45-43 19-24Q39-15 61-22Z" fill="#111115"/>
+<path d="M-59-26L-28-26M59-26L28-26" stroke="#ff304f" stroke-width="1.5" opacity="0.4312303108786757"/>
+<path d="M-8-26L-15 17Q-9 25 0 23Q9 25 15 17L8-26M-15 17L-7 14M15 17L7 14" fill="none" stroke="#8f8685" stroke-width="1.5"/>
+<path d="M-15 22Q0 31 15 22" fill="none" stroke="#1b181d" stroke-width="2"/>
+<path d="M-70 1Q-55 25-32 23M70 1Q55 25 32 23" fill="none" stroke="#b59191" stroke-width="4" opacity=".7"/>
+<path d="M-65 32Q-50 65 0 71Q50 65 65 32Q44 54 0 55Q-44 54-65 32Z" fill="#211b21"/>
+<path d="M0 38C-17 28-29 50-60 34C-44 64-15 56 0 48C15 56 44 64 60 34C29 50 17 28 0 38Z" fill="#111115"/>
+<path d="M-33 67Q0 82 33 67" fill="none" stroke="#988987" stroke-width="1.5"/>
+<path d="M-13 80Q0 89 13 80L7 106L0 118L-7 106Z" fill="#171219"/>
+<path d="M-75 11L-79 37M75 11L79 37" stroke="#84767b" fill="none"/>
+</g>
+
+<path d="M-105 83.19999999999999H105" stroke="#ff304f" stroke-width="1" opacity=".55"/>
+<g fill="none" stroke="#ff304f" stroke-width="1.3"><path d="M-128-102V-124H-106M106-124H128V-102M-128 92V114H-106M106 114H128V92"/></g></g>
+<g fill="#ff304f"><text x="37" y="157" font-family="Arial,Helvetica,sans-serif" font-size="103" font-weight="900" letter-spacing="-6">PCTHELAB</text></g>
+<g font-family="'Courier New',monospace">
+<text x="40" y="199" font-size="15" fill="#a7a0a3"><tspan fill="#ff304f">$</tspan> whoami</text>
+<text x="40" y="226" font-size="16" fill="#eeece7">Juan Delgado</text>
+<text x="40" y="250" font-size="14" fill="#a7a0a3">backend developer</text>
+
+<path d="M40 298H960" stroke="#382128"/><path d="M40 298H960" stroke="#ff304f" stroke-dasharray="35 965" stroke-dashoffset="160" opacity=".7"/>
+<text x="40" y="327" font-size="14" fill="#d6cfd0"><tspan fill="#ff304f">&gt;</tspan> ./init --profile pcthelab<tspan opacity="1">_</tspan></text>
+<text x="960" y="327" text-anchor="end" fill="#8b777e" font-size="10" letter-spacing="1.5">CODE SPEAKS.</text>
+</g></svg>
