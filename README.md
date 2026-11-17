@@ -4,7 +4,7 @@
 </picture>
 
 <p align="center">
-  <a href="https://juan-workspace.pages.dev"><picture><source media="(max-width: 600px)" srcset="assets/link-1-mobile.svg?v=mask"><img src="assets/link-1.svg?v=mask" width="32%" alt="Portfólio"></picture></a>
+  <a href="https://pcthelab.github.io"><picture><source media="(max-width: 600px)" srcset="assets/link-1-mobile.svg?v=mask"><img src="assets/link-1.svg?v=mask" width="32%" alt="Portfólio"></picture></a>
   <a href="https://www.linkedin.com/in/pcthelab"><picture><source media="(max-width: 600px)" srcset="assets/link-2-mobile.svg?v=mask"><img src="assets/link-2.svg?v=mask" width="32%" alt="LinkedIn"></picture></a>
   <a href="mailto:contato.juandev@hotmail.com"><picture><source media="(max-width: 600px)" srcset="assets/link-3-mobile.svg?v=mask"><img src="assets/link-3.svg?v=mask" width="32%" alt="Contato por e-mail"></picture></a>
 </p>
